@@ -118,7 +118,7 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 STATICSTORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-
+CSRF_TRUSTED_ORIGINS= ["https://djangolive-production.up.railway.app"]
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
